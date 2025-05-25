@@ -8,6 +8,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        merriweather: ['var(--font-merriweather)'],
+      },
       colors: {
         dark: {
           100: '#1a1a1a',
@@ -54,4 +57,4 @@ module.exports = {
   },
   plugins: [],
   darkMode: 'class',
-} 
+}
