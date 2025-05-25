@@ -1,6 +1,52 @@
-# 3D Character Creation Suite with OpenPose Integration
+# 3D Creator Suite
 
-A Next.js application for creating 3D characters with skeleton creation, model creation, and animation tools.
+A comprehensive web application for 3D model creation, manipulation, and animation.
+
+## Project Structure
+
+This Next.js project uses a src-based directory structure:
+
+```
+/
+├── src/               # Source directory
+│   ├── app/           # Next.js App Router
+│   │   ├── api/       # API routes
+│   │   ├── layout.tsx # Root layout
+│   │   └── page.tsx   # Home page
+│   ├── pages/         # Next.js Pages Router (if used)
+│   ├── components/    # Reusable components
+│   ├── utils/         # Utility functions
+│   ├── lib/           # Library code
+│   └── types/         # TypeScript type definitions
+├── public/            # Static assets
+├── .next/             # Next.js build output
+├── next.config.js     # Next.js configuration
+└── jsconfig.json      # JavaScript/TypeScript configuration
+```
+
+## Development
+
+```bash
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+
+# Build for production
+npm run build
+
+# Start production server
+npm start
+```
+
+## Key Features
+
+- AI-powered 3D model generation from text descriptions
+- Character skeleton creation and rigging tools
+- Animation generation with customizable parameters
+- Support for industry-standard file formats (GLB, FBX, DAE)
+- Real-time 3D previews and editing capabilities
 
 ## Features
 
